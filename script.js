@@ -17,7 +17,7 @@ profileIcon.addEventListener("click", () => {
 // Movie card
 const movieCard = document.querySelectorAll(".content-card");
 movieCard.forEach((card) => {
-  card.addEventListener("mouseEnter", () => {
+  card.addEventListener("mouseenter", () => {
     card.style.transform = "scale(1.05)";
   });
 
